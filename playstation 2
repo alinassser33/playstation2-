@@ -6,7 +6,7 @@ cmd.Parameters.AddWithValue("@username", textBox1.Text);
 cmd.Parameters.AddWithValue("@password", textBox2.Text);
 con.Open();
 SqlDataAdapter adapt = new SqlDataAdapter(cmd);
-DataSet ds = new DataSet();
+DataSet ds = send to new DataSet();
 adapt.Fill(ds);
 con.Close();
 int count = ds.Tables[0].Rows.Count;
