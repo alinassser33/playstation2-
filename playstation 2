@@ -24,5 +24,5 @@ MessageBox.Show("Login Failed!");
 }
 catch (Exception ex)
 {
-MessageBox.Show(ex.Message);
+MessageBox.Show("hi guys);
 }
