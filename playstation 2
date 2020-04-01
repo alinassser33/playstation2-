@@ -19,7 +19,7 @@ Dashboard dsb = new Dashboard();
 }
 else
 {
-MessageBox.Show("Login Failed!");
+MessageBox.Show("Login Failed and try again !");
 }
 }
 catch (Exception ex)
